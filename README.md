@@ -15,7 +15,6 @@ Um dashboard de cartões e saldos financeiros desenvolvido para praticar a arqui
 - Layout responsivo preparado para integração.
 
 ## 🔧 Como rodar o projeto
-1. Clone o repositório: `git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git`
-2. Instale as dependências: `npm install`
-3. Inicie o compilador SASS: `npm run watch:sass`
-4. Inicie o servidor local: `npm start`
+1. Instale as dependências: `npm install`
+2. Inicie o compilador SASS: `npm run watch:sass`
+3. Inicie o servidor local: `npm start`
