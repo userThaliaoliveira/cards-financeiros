@@ -1,21 +1,19 @@
 .debit-card {
     border: none;
     overflow: hidden;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: $radius; // Usando variável
+    background-color: $color-white;
 
     &__header {
-        padding: 15px;
-        background-color: rgb(233, 129, 50);
+        padding: $padding-card;
+        background-color: $color-secondary; // Usando variável
     }
 
     &__header-title {
         display: flex;
         align-items: center;
         
-        h1 {
-            font-size: 20px;
-        }
+        h1 { font-size: 20px; }
     }
 
     &__header-icon {
@@ -24,11 +22,10 @@
     }
 
     &__content {
-        padding: 15px;
-        overflow: hidden;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        background-color: white;
+        padding: $padding-card;
+        background-color: $color-white;
+        border-bottom-left-radius: $radius;
+        border-bottom-right-radius: $radius;
     }
 
     &__content-item {
@@ -36,8 +33,6 @@
         align-items: center;
         padding: 20px;
     
-        p:nth-of-type(1) {
-        margin-right: auto;
-        }
+        p:nth-of-type(1) { margin-right: auto; }
     }
 }
